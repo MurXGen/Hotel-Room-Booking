@@ -1,0 +1,11 @@
+0Step 1: Download github desktop version 
+Step 2: Create a new account on GitUrl (Github Website)
+Step 3: Click on New to create new repositry
+Step 4: After installation of Gitbub Desktop, We need to login by authourising the approve button
+5: After logining into the dashboard , we would be able to see our created repositry in your repositry tab
+6: We need to select the repositry and click on the clone to make changes to our repositry or project
+7: it will ask for verify the account repositry and the local path of your project
+8: we need to make changes inside our local path directory for github to detect the changes
+9: Once the changes are detected , it will automatically display the list of changes that are affected (Green : Newly added,Red : Something removed or altered)
+10: we need to verify all the changes and give summaryu and description to the changes that are correct and click on commit to main button
+11: Once the changes are commited it will tell us to push the changes as "Push Origin" which moves to the repositry /Origin , Upon Clicking it will make the changes gets affected in the GitHub Repositry

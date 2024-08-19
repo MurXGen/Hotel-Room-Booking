@@ -1,0 +1,47 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="master.master.cs" Inherits="gymTracker.master" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/Assets/css/login.css">
+    <link rel="stylesheet" href="/Assets/css/register.css">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form runat="server">
+    <header>
+
+        
+        <div class="HeaderLogo">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.dW3Uh84M3dVKv5zBIij9tQHaHa&pid=Api&P=0&h=180" alt="" srcset=""
+                width="80px" style="border-radius: 3px; box-shadow: 3px 6px 10px rgb(230 230 230);padding: 10px;">
+            <div class="titleLogo">
+                <b>roomMilega</b>
+                <span>www.roommilega.fake.com</span>
+            </div>
+
+
+        </div>
+        <div class="menu">
+            <ul>
+               <li><a href="DashboardUser.aspx">Home</a></li>
+                <li><a href="aboutus.aspx">About US</a></li>
+                <li><a href="contactus.aspx">Contact us</a></li>
+                <li><a href="bookedStatus.aspx">History</a></li>
+                <li><asp:Button ID="btnLogout" runat="server" Text="Logout" style="border-radius:3px ;font-size:12px;padding:10px;background-color: antiquewhite;" OnClick="btnLogout_Click" /></li>
+                
+                
+            </ul>
+        </div>
+
+    </header>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+       </form>
+</body>
+</html>

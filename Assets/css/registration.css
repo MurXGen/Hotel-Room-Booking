@@ -1,0 +1,100 @@
+body{
+    padding: 10px;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    box-shadow: 3px 6px 10px rgb(230 230 230);
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    max-width: 100%;
+}
+
+
+
+.HeaderLogo 
+{
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.titleLogo{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.HeaderLogo b{
+    padding: 5px 0;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+header > .menu > ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    align-content:center;
+}
+
+header > .menu > ul > li{
+    padding: 10px;
+    margin: 0 20px;
+    max-width: fit-content;
+}
+
+    header > .menu > ul > li a {
+        text-decoration: none;
+    }
+.registraion{
+    box-shadow: 3px 3px 10px rgb(230 230 230);
+    width: auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 10px;
+    
+}
+
+    .registraion .forms {
+        padding: 40px;
+    }
+
+    .registraion .forms > form {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 10px;
+        
+    }
+
+.registraion .forms > form > .inputs{
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 30px;
+    padding: 10px;
+
+}
+
+.registraion .formsImg{
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-left: 60px;
+}
